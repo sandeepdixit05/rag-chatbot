@@ -1,0 +1,45 @@
+# Core RAG Components
+langchain==0.3.8
+langchain-community==0.3.8
+langchain-core==0.3.28
+langchain-openai==0.2.12
+langchain-anthropic==0.2.8
+
+# PDF Processing
+PyPDF2==3.0.1
+pdfplumber==0.11.4
+pymupdf==1.25.2
+
+# Vector Database and Embeddings
+chromadb==0.5.20
+faiss-cpu==1.9.0
+sentence-transformers==3.3.1
+
+# LLM Integrations
+openai==1.58.1
+anthropic==0.40.0
+
+# Web Framework and Interface
+fastapi==0.115.6
+uvicorn==0.32.1
+streamlit==1.40.2
+gradio==5.9.1
+
+# Data Processing and Utilities
+numpy==1.26.4
+pandas==2.2.3
+python-dotenv==1.0.1
+pydantic==2.10.3
+pydantic-settings==2.6.1
+
+# Development and Testing
+pytest==8.3.4
+pytest-asyncio==0.24.0
+black==24.10.0
+flake8==7.1.1
+mypy==1.13.0
+
+# Additional Utilities
+tqdm==4.67.1
+python-multipart==0.0.17
+aiofiles==24.1.0
